@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>网页布局练习</title>
+	<link rel="stylesheet" type="text/css" href="CSS_homework.css">
+</head>
+<body>
+	<!-- 顶部开始 -->
+	<div class="header">
+		<div class="logo">
+			<img src="images\logo.png">
+		</div>
+		<div class="nav">
+			<ul id="ul1">
+				<li><a href="#">HOME</a></li>
+				<li><a href="#">ABOUT</a></li>
+				<li><a href="#">GALLERY</a></li>
+				<li><a href="#">FACULTY</a></li>
+				<li><a href="#">EVENTS</a></li>
+				<li><a href="#">CONTACT</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 顶部结束 -->
+	<!-- banner图开始 -->
+	<div class="banner">
+		<div class="ban_img">
+			<img src="images\banner3.jpg">
+		</div>
+		<div class="ban_cover"></div>
+		<div class="ban_form">
+			<form id="form1">
+				<input class="text1" type="text" name="text1" placeholder="&nbsp;&nbsp;your Name">
+				<input class="text2" type="text" name="text2" placeholder="&nbsp;&nbsp;your Phone">
+				<input class="text3" type="text" name="text3" placeholder="&nbsp;&nbsp;your Email">
+				<textarea class="textarea1">&nbsp;&nbsp;Write Your Comment Here</textarea>
+				<input class="sub" type="submit" name="sub" value="SEND MESSAGE">
+			</form>
+		</div>
+	</div>
+	<!-- banner图结束 -->
+	<!-- ABOUT区开始 -->
+	<div class="about">
+
+		<div class="ab_up">
+			<h3 id="h1">ABOUT</h3>
+			<center><hr id="hr1" size=2.5 color="#07cbc9" width="40px"/></center>
+			<p id="p1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+		</div>
+
+		<div class="ab_mid">
+			<div class="ab_mid_p1">
+				<h3 id="h2">A WORD ABOUT US</h3>
+				<div class="p20"></div>
+				<p id="p2">Praesent dignissim viverra est, sed bibendum ligula congue non. Sed ac nislet felis gravida commodo? Suspendisse eget ullamcorper ipsum. Suspendisse diam amet.</p>
+				<button id="bt1">EXPLORE</button>
+			</div>
+			<div class="ab_mid_p2">
+				<img src="images\bb3.jpg">
+			</div>
+			<div class="ab_mid_p3">
+				<h3 id="h3">70000</h3>
+				<center><hr id="hr2" size=2.5 color="#07cbc9" width="40px"/></center>
+				<p id="p3">Students</p>
+			</div>
+			<div class="ab_mid_p4">
+				<h3 id="h4">600</h3>
+				<center><hr id="hr3" size=2.5 color="#07cbc9" width="40px"/></center>
+				<p id="p4">Faculty</p>
+			</div>
+		</div>
+
+		<div class="ab_dow">
+			<div class="ab_dow_p1">
+				<img src="images\b1.jpg">
+				<div class="tri1"></div>
+				<div class="introduction1">
+					<h3 id="h5">Library</h3>
+					<p id="p51">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					<p id="p52">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				</div>
+				<button id="bt2">EXPLORE</button>
+			</div>
+			<div class="ab_dow_p2">
+				<img src="images\b2.jpg">
+				<div class="tri2"></div>
+				<div class="introduction2">
+					<h3 id="h5">Computer Lab</h3>
+					<p id="p51">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					<p id="p52">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				</div>
+				<button id="bt3">EXPLORE</button>
+			</div>
+			<div class="ab_dow_p3">
+				<div class="introduction3">
+					<h3 id="h5">Conference Hall</h3>
+					<p id="p51">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					<p id="p52">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				</div>
+				<div class="tri3"></div>
+				<img src="images\b3.jpg">
+				<button id="bt4">EXPLORE</button>
+			</div>
+			<div class="ab_dow_p4">
+				<div class="introduction4">
+					<h3 id="h5">Play Ground</h3>
+					<p id="p51">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					<p id="p52">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				</div>
+				<div class="tri4"></div>
+				<img src="images\b4.jpg">
+				<button id="bt5">EXPLORE</button>
+			</div>
+		</div>
+	</div>
+	<!-- ABOUT区结束 -->
+	<!-- GALLERY区开始 -->
+	<div class="gallery">
+		<div class="gl_up">
+			<h3 id="h6">GALLERY</h3>
+			<center><hr id="hr1" size=2.5 color="#07cbc9" width="40px"/></center>
+			<p id="p6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+		</div>
+		<div class="gl_dow">
+			<dl>
+				<dt><img src="images\03-01.jpg"></dt>
+				<dd>&nbsp;&nbsp;SCIENCE LAB</dd>
+			</dl>
+			<dl>
+				<dt><img src="images\03-02.jpg"></dt>
+				<dd>&nbsp;&nbsp;INDOOR STADIUM</dd>
+			</dl>
+			<dl>
+				<dt><img src="images\03-03.jpg"></dt>
+				<dd>&nbsp;&nbsp;TRANSPORTATION</dd>
+			</dl>
+			<dl>
+				<dt><img src="images\03-04.jpg"></dt>
+				<dd>&nbsp;&nbsp;KIDS ROOM</dd>
+			</dl>
+			<dl>
+				<dt><img src="images\03-05.jpg"></dt>
+				<dd>&nbsp;&nbsp;MEDITATION CLASSES</dd>
+			</dl>
+			<dl>
+				<dt><img src="images\03-06.jpg"></dt>
+				<dd>&nbsp;&nbsp;KIDS PLAY GROUND</dd>
+			</dl>
+		</div>
+	</div>
+	<!-- GALLERY区结束 -->
+	<!-- 页脚区开始 -->
+	<div class="footer">
+		&copy;&nbsp;2016&nbsp;imooc.com&nbsp;京ICP备13046642号
+	</div>
+	<!-- 页脚区结束 -->
+</body>
+</html>
